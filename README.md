@@ -20,7 +20,7 @@ limitations under the License.
 
 # iterIntersectionByHash
 
-[![NPM version][npm-image]][npm-url] [![Build Status][test-image]][test-url] [![Coverage Status][coverage-image]][coverage-url] [![dependencies][dependencies-image]][dependencies-url]
+[![NPM version][npm-image]][npm-url] [![Build Status][test-image]][test-url] [![Coverage Status][coverage-image]][coverage-url] <!-- [![dependencies][dependencies-image]][dependencies-url] -->
 
 > Create an [iterator][mdn-iterator-protocol] which returns the intersection of two or more [iterators][mdn-iterator-protocol] according to a hash function.
 
@@ -225,8 +225,8 @@ while ( true ) {
 
 ## See Also
 
--   [`@stdlib/iter/intersection`][@stdlib/iter/intersection]: create an iterator which returns the intersection of two or more iterators.
--   [`@stdlib/iter/unique-by-hash`][@stdlib/iter/unique-by-hash]: create an iterator which returns unique values according to a hash function.
+-   <span class="package-name">[`@stdlib/iter/intersection`][@stdlib/iter/intersection]</span><span class="delimiter">: </span><span class="description">create an iterator which returns the intersection of two or more iterators.</span>
+-   <span class="package-name">[`@stdlib/iter/unique-by-hash`][@stdlib/iter/unique-by-hash]</span><span class="delimiter">: </span><span class="description">create an iterator which returns unique values according to a hash function.</span>
 
 </section>
 
@@ -277,8 +277,12 @@ Copyright &copy; 2016-2021. The Stdlib [Authors][stdlib-authors].
 [coverage-image]: https://img.shields.io/codecov/c/github/stdlib-js/iter-intersection-by-hash/main.svg
 [coverage-url]: https://codecov.io/github/stdlib-js/iter-intersection-by-hash?branch=main
 
+<!--
+
 [dependencies-image]: https://img.shields.io/david/stdlib-js/iter-intersection-by-hash.svg
 [dependencies-url]: https://david-dm.org/stdlib-js/iter-intersection-by-hash/main
+
+-->
 
 [chat-image]: https://img.shields.io/gitter/room/stdlib-js/stdlib.svg
 [chat-url]: https://gitter.im/stdlib-js/stdlib/
