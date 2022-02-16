@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/iter-intersection-by-hash",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "Create an iterator which returns the intersection of two or more iterators according to a hash function.",
   "license": "Apache-2.0",
   "author": {
