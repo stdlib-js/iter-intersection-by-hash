@@ -63,7 +63,9 @@ If no recognized module system is present, access bundle contents via the global
 ```html
 <script type="text/javascript">
 (function () {
+(function () {
     window.iterIntersectionByHash;
+})();
 })();
 </script>
 ```
@@ -187,6 +189,7 @@ bool = ( ctx.count > 0 );
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/iter-intersection-by-hash@umd/browser.js"></script>
 <script type="text/javascript">
 (function () {
+(function () {
 
 function mapFcn( v ) {
     return {
@@ -225,6 +228,7 @@ while ( true ) {
     console.log( v.value );
 }
 
+})();
 })();
 </script>
 </body>
@@ -331,9 +335,9 @@ Copyright &copy; 2016-2022. The Stdlib [Authors][stdlib-authors].
 
 <!-- <related-links> -->
 
-[@stdlib/iter/intersection]: https://github.com/stdlib-js/iter-intersection/tree/umd
+[@stdlib/iter/intersection]: https://github.com/stdlib-js/iter-intersection/tree/umd/tree/umd
 
-[@stdlib/iter/unique-by-hash]: https://github.com/stdlib-js/iter-unique-by-hash/tree/umd
+[@stdlib/iter/unique-by-hash]: https://github.com/stdlib-js/iter-unique-by-hash/tree/umd/tree/umd
 
 <!-- </related-links> -->
 
