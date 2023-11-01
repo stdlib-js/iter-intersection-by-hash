@@ -48,8 +48,8 @@
   "devDependencies": {
     "@stdlib/array-to-iterator": "^0.1.0",
     "@stdlib/bench": "^0.1.0",
-    "@stdlib/iter-empty": "^0.1.0",
-    "@stdlib/iter-map": "^0.1.0",
+    "@stdlib/iter-empty": "^0.1.1",
+    "@stdlib/iter-map": "^0.1.1",
     "@stdlib/math-base-assert-is-nan": "^0.1.1",
     "@stdlib/random-iter-discrete-uniform": "^0.1.0",
     "proxyquire": "^2.0.0",
