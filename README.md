@@ -52,7 +52,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import iterIntersectionByHash from 'https://cdn.jsdelivr.net/gh/stdlib-js/iter-intersection-by-hash@deno/mod.js';
+import iterIntersectionByHash from 'https://cdn.jsdelivr.net/gh/stdlib-js/iter-intersection-by-hash@v0.2.0-deno/mod.js';
 ```
 
 #### iterIntersectionByHash( iter0, ...iterator, hashFcn\[, thisArg] )
@@ -168,7 +168,7 @@ bool = ( ctx.count > 0 );
 ```javascript
 import discreteUniform from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-iter-discrete-uniform@deno/mod.js';
 import iterMap from 'https://cdn.jsdelivr.net/gh/stdlib-js/iter-map@deno/mod.js';
-import iterIntersectionByHash from 'https://cdn.jsdelivr.net/gh/stdlib-js/iter-intersection-by-hash@deno/mod.js';
+import iterIntersectionByHash from 'https://cdn.jsdelivr.net/gh/stdlib-js/iter-intersection-by-hash@v0.2.0-deno/mod.js';
 
 function mapFcn( v ) {
     return {
