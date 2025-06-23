@@ -104,7 +104,7 @@ The returned [iterator][mdn-iterator-protocol] protocol-compliant object has the
 
 A hash function is provided one argument:
 
--   **v**: the current iterated value
+-   **v**: the current iterated value.
 
 To set the execution context of the hash function, provide a `thisArg`.
 
@@ -279,7 +279,7 @@ See [LICENSE][stdlib-license].
 
 ## Copyright
 
-Copyright &copy; 2016-2024. The Stdlib [Authors][stdlib-authors].
+Copyright &copy; 2016-2025. The Stdlib [Authors][stdlib-authors].
 
 </section>
 
